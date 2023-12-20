@@ -1,0 +1,439 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+} 
+nav{
+    background-color: white;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    height: 100px;
+} 
+nav a{
+    text-decoration: unset; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+} 
+.div1{
+  background-image: url(images/font.png);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%; 
+  height: 500px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div1 .span{
+  background-color: #828282; 
+  color: white;
+  width: 300px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  height: 30px;
+  text-align: center; 
+  margin-left: 10px;
+} 
+.logo .images{
+  object-fit: cover;
+  width: 200px; 
+  height: 300px;
+} 
+.div1 img{  
+  width: 150px;
+  height: 80px;   
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.haut {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 15px;
+}
+.haut p{
+  color: white;
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 12px;
+}
+.div2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.div2 img{ 
+  width: 100px;
+  height: 80px; 
+  display: flex;  
+  margin-left: 50px;
+  margin-top: 55px; 
+}
+.app div{
+  border: 2px solid #369E8A;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.app h2{
+  font-size: 20px; 
+  margin-left: 20px;
+}
+.app .titre{
+  padding-left: 50px;
+  padding-left: 50px;
+} 
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+} 
+ 
+.div3 h1{
+  text-align: center;
+}
+.div3 .div33{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #C4C4C459;
+  ;
+  ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.portrait{
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px;  
+
+}
+.portrait .portraits:hover{ 
+  transform: scale(1.05); 
+  transition:0.4 ease ;
+  overflow: hidden;
+}
+.portrait .portraits{
+  flex-grow: 1;
+  flex-basis:300px ; 
+} 
+.div3 .logo{ 
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#c7c5c5;
+   
+}
+.div3 .logo .images{
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+.div33 .para{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.div4{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.div44 h1{
+  text-align: center;
+}
+.div44{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills h2{
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+
+}
+.progress-bar{
+  width: 45%; 
+}
+.moitier{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}
+.progression{ 
+  background-color: #959595; 
+  height: 10px; 
+  width: 100%; 
+  border-radius: 5px;
+
+}
+.progression .bakeli {
+  width: 100%;
+}
+.progression .opp{
+  width: 90%;
+}
+.progression .baki{
+  width: 80%;
+} 
+.progression div{
+  height: 10px;
+  border-radius: 5px;
+  width: 70%;
+  background-color:#A5C0AD;
+  ;
+}
+.progression div span{ 
+    float: right; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -20px; 
+    margin-top: -20px;
+}  
+.div5{
+  background-color:#A5C0AD; 
+  padding-bottom: 100px;
+  color: white;
+}
+.div55{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div55 h1{
+  text-align: center;
+} 
+ 
+.div55 .para{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div6 .logo{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div6 img{ 
+  width: 60px;
+  height: 50px;
+}
+.div6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  gap: 60px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.div6 h6{
+  text-align: center;
+}
+.div6 .para{
+  padding-left: 30px;
+}
+footer{
+  background-color:#C4C4C459;
+  ; 
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+footer h3,p{
+  text-align: center;
+}
+footer div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+.div7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+} 
+footer .par p{
+  text-align: start;
+  font-size: 15px;
+  padding-top: 0;
+}
+footer p{
+  padding-top: 60px;
+  font-size: 10px;
+}
+@media screen and (max-width:560px) {
+  nav{ 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-basis: 300px;
+    justify-content: center; 
+    font-size: 12px; 
+} 
+
+.div1{ 
+  height: 100%;  
+  background-size: auto;
+}
+.div1 img{
+  width: 60px;
+  height: 50px;  
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.div1 .span{ 
+  width: auto;  
+  font-size: 15px; 
+  height: auto;
+} 
+.div2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  flex-basis: 300px;
+}
+.div33 .para{
+  display: flex;
+  flex-direction: column;
+} 
+.portrait{
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.portrait .portraits{
+  flex-grow: 1;
+  flex-basis:300px ;
+} 
+.div3 .logo{ 
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#c7c5c5;
+   
+}
+.div3 .logo .images{
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+.moitier{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+} 
+.progress-bar{
+  width: 90%;
+} 
+.div6 .para{
+  font-size: 13px;
+} 
+.div7{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  flex-basis: 300px;
+  justify-content: center;
+  gap: 35px;
+} 
+}
+@media screen and (max-width:768px){
+
+  nav{ 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-basis: 300px;
+    justify-content: center; 
+    font-size: 12px; 
+} 
+.div1{ 
+  height: 100%;  
+  background-size: auto;
+}
+.div1 img{
+  width: 60px;
+  height: 50px;  
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.div1 .span{ 
+  width: auto;  
+  font-size: 15px; 
+  height: auto;
+} 
+.div2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  flex-basis: 300px;
+}
+.div33 .para{
+  display: flex;
+  flex-direction: column;
+} 
+.portrait{
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.portrait .portraits{
+  flex-grow: 1;
+  flex-basis:300px ;
+} 
+.div3 .logo{ 
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#c7c5c5;
+   
+}
+.div3 .logo .images{
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+.moitier{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+} 
+.progress-bar{
+  width: 90%;
+} 
+.div6 .para{
+  font-size: 13px;
+}
+.images{
+  width: 320px;
+  height: 300px; 
+}
+.div7{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  flex-basis: 300px;
+  justify-content: center;
+  gap: 35px;
+} 
+}  
